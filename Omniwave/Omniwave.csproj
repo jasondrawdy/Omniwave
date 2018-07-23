@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A04B6F53-8147-4667-868B-592E82FCDB34}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Omniwave</RootNamespace>
+    <AssemblyName>Omniwave</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Console\Figlets.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorAlternator.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorAlternatorFactory.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorExtensions.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorfulConsoleBack.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorfulConsoleFront.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorManager.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorManagerFactory.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorMapper.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorMappingException.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\COLORREF.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ColorStore.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ConsoleAccessException.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\DefaultFonts.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\ExtensionMethods.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\Figlet.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\FigletFont.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\Formatter.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\FrequencyBasedColorAlternator.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\GradientGenerator.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\IPrototypable.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\MatchLocation.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\Pattern.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\PatternBasedColorAlternator.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\PatternCollection.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\StyleClass.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\StyledString.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\Styler.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\StyleSheet.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\TaskQueue.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\TextAnnotator.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\TextFormatter.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\TextPattern.cs" />
+    <Compile Include="Resources\Dependencies\Colorful.Console\TextPatternCollection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Resources\Fonts\0.flf" />
+    <None Include="Resources\Fonts\1.flf" />
+    <None Include="Resources\Fonts\10.flf" />
+    <None Include="Resources\Fonts\100.flf" />
+    <None Include="Resources\Fonts\101.flf" />
+    <None Include="Resources\Fonts\102.flf" />
+    <None Include="Resources\Fonts\103.flf" />
+    <None Include="Resources\Fonts\104.flf" />
+    <None Include="Resources\Fonts\105.flf" />
+    <None Include="Resources\Fonts\106.flf" />
+    <None Include="Resources\Fonts\107.flf" />
+    <None Include="Resources\Fonts\108.flf" />
+    <None Include="Resources\Fonts\109.flf" />
+    <None Include="Resources\Fonts\11.flf" />
+    <None Include="Resources\Fonts\110.flf" />
+    <None Include="Resources\Fonts\111.flf" />
+    <None Include="Resources\Fonts\112.flf" />
+    <None Include="Resources\Fonts\113.flf" />
+    <None Include="Resources\Fonts\114.flf" />
+    <None Include="Resources\Fonts\115.flf" />
+    <None Include="Resources\Fonts\116.flf" />
+    <None Include="Resources\Fonts\117.flf" />
+    <None Include="Resources\Fonts\118.flf" />
+    <None Include="Resources\Fonts\119.flf" />
+    <None Include="Resources\Fonts\12.flf" />
+    <None Include="Resources\Fonts\120.flf" />
+    <None Include="Resources\Fonts\121.flf" />
+    <None Include="Resources\Fonts\122.flf" />
+    <None Include="Resources\Fonts\123.flf" />
+    <None Include="Resources\Fonts\124.flf" />
+    <None Include="Resources\Fonts\125.flf" />
+    <None Include="Resources\Fonts\126.flf" />
+    <None Include="Resources\Fonts\127.flf" />
+    <None Include="Resources\Fonts\128.flf" />
+    <None Include="Resources\Fonts\129.flf" />
+    <None Include="Resources\Fonts\13.flf" />
+    <None Include="Resources\Fonts\130.flf" />
+    <None Include="Resources\Fonts\131.flf" />
+    <None Include="Resources\Fonts\132.flf" />
+    <None Include="Resources\Fonts\133.flf" />
+    <None Include="Resources\Fonts\134.flf" />
+    <None Include="Resources\Fonts\135.flf" />
+    <None Include="Resources\Fonts\136.flf" />
+    <None Include="Resources\Fonts\137.flf" />
+    <None Include="Resources\Fonts\138.flf" />
+    <None Include="Resources\Fonts\139.flf" />
+    <None Include="Resources\Fonts\14.flf" />
+    <None Include="Resources\Fonts\140.flf" />
+    <None Include="Resources\Fonts\141.flf" />
+    <None Include="Resources\Fonts\142.flf" />
+    <None Include="Resources\Fonts\143.flf" />
+    <None Include="Resources\Fonts\144.flf" />
+    <None Include="Resources\Fonts\145.flf" />
+    <None Include="Resources\Fonts\146.flf" />
+    <None Include="Resources\Fonts\147.flf" />
+    <None Include="Resources\Fonts\15.flf" />
+    <None Include="Resources\Fonts\16.flf" />
+    <None Include="Resources\Fonts\17.flf" />
+    <None Include="Resources\Fonts\18.flf" />
+    <None Include="Resources\Fonts\19.flf" />
+    <None Include="Resources\Fonts\2.flf" />
+    <None Include="Resources\Fonts\20.flf" />
+    <None Include="Resources\Fonts\21.flf" />
+    <None Include="Resources\Fonts\22.flf" />
+    <None Include="Resources\Fonts\23.flf" />
+    <None Include="Resources\Fonts\24.flf" />
+    <None Include="Resources\Fonts\25.flf" />
+    <None Include="Resources\Fonts\26.flf" />
+    <None Include="Resources\Fonts\27.flf" />
+    <None Include="Resources\Fonts\28.flf" />
+    <None Include="Resources\Fonts\29.flf" />
+    <None Include="Resources\Fonts\3.flf" />
+    <None Include="Resources\Fonts\30.flf" />
+    <None Include="Resources\Fonts\31.flf" />
+    <None Include="Resources\Fonts\32.flf" />
+    <None Include="Resources\Fonts\33.flf" />
+    <None Include="Resources\Fonts\34.flf" />
+    <None Include="Resources\Fonts\35.flf" />
+    <None Include="Resources\Fonts\36.flf" />
+    <None Include="Resources\Fonts\37.flf" />
+    <None Include="Resources\Fonts\38.flf" />
+    <None Include="Resources\Fonts\39.flf" />
+    <None Include="Resources\Fonts\4.flf" />
+    <None Include="Resources\Fonts\40.flf" />
+    <None Include="Resources\Fonts\41.flf" />
+    <None Include="Resources\Fonts\42.flf" />
+    <None Include="Resources\Fonts\43.flf" />
+    <None Include="Resources\Fonts\44.flf" />
+    <None Include="Resources\Fonts\45.flf" />
+    <None Include="Resources\Fonts\46.flf" />
+    <None Include="Resources\Fonts\47.flf" />
+    <None Include="Resources\Fonts\48.flf" />
+    <None Include="Resources\Fonts\49.flf" />
+    <None Include="Resources\Fonts\5.flf" />
+    <None Include="Resources\Fonts\50.flf" />
+    <None Include="Resources\Fonts\51.flf" />
+    <None Include="Resources\Fonts\52.flf" />
+    <None Include="Resources\Fonts\53.flf" />
+    <None Include="Resources\Fonts\54.flf" />
+    <None Include="Resources\Fonts\55.flf" />
+    <None Include="Resources\Fonts\56.flf" />
+    <None Include="Resources\Fonts\57.flf" />
+    <None Include="Resources\Fonts\58.flf" />
+    <None Include="Resources\Fonts\59.flf" />
+    <None Include="Resources\Fonts\6.flf" />
+    <None Include="Resources\Fonts\60.flf" />
+    <None Include="Resources\Fonts\61.flf" />
+    <None Include="Resources\Fonts\62.flf" />
+    <None Include="Resources\Fonts\63.flf" />
+    <None Include="Resources\Fonts\64.flf" />
+    <None Include="Resources\Fonts\65.flf" />
+    <None Include="Resources\Fonts\66.flf" />
+    <None Include="Resources\Fonts\67.flf" />
+    <None Include="Resources\Fonts\68.flf" />
+    <None Include="Resources\Fonts\69.flf" />
+    <None Include="Resources\Fonts\7.flf" />
+    <None Include="Resources\Fonts\70.flf" />
+    <None Include="Resources\Fonts\71.flf" />
+    <None Include="Resources\Fonts\72.flf" />
+    <None Include="Resources\Fonts\73.flf" />
+    <None Include="Resources\Fonts\74.flf" />
+    <None Include="Resources\Fonts\75.flf" />
+    <None Include="Resources\Fonts\76.flf" />
+    <None Include="Resources\Fonts\77.flf" />
+    <None Include="Resources\Fonts\78.flf" />
+    <None Include="Resources\Fonts\79.flf" />
+    <None Include="Resources\Fonts\8.flf" />
+    <None Include="Resources\Fonts\80.flf" />
+    <None Include="Resources\Fonts\81.flf" />
+    <None Include="Resources\Fonts\82.flf" />
+    <None Include="Resources\Fonts\83.flf" />
+    <None Include="Resources\Fonts\84.flf" />
+    <None Include="Resources\Fonts\85.flf" />
+    <None Include="Resources\Fonts\86.flf" />
+    <None Include="Resources\Fonts\87.flf" />
+    <None Include="Resources\Fonts\88.flf" />
+    <None Include="Resources\Fonts\89.flf" />
+    <None Include="Resources\Fonts\9.flf" />
+    <None Include="Resources\Fonts\90.flf" />
+    <None Include="Resources\Fonts\91.flf" />
+    <None Include="Resources\Fonts\92.flf" />
+    <None Include="Resources\Fonts\93.flf" />
+    <None Include="Resources\Fonts\94.flf" />
+    <None Include="Resources\Fonts\95.flf" />
+    <None Include="Resources\Fonts\96.flf" />
+    <None Include="Resources\Fonts\97.flf" />
+    <None Include="Resources\Fonts\98.flf" />
+    <None Include="Resources\Fonts\99.flf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Omnigen\Omnigen.csproj">
+      <Project>{a0440d1c-b58a-4c3c-b715-1d30db45abe2}</Project>
+      <Name>Omnigen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

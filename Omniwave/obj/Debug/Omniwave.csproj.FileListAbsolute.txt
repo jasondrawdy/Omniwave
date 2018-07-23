@@ -1,0 +1,11 @@
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\bin\Debug\Omniwave.exe.config
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\bin\Debug\Omniwave.exe
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\bin\Debug\Omniwave.pdb
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\obj\Debug\Omniwave.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\obj\Debug\Omniwave.csproj.CoreCompileInputs.cache
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\obj\Debug\Omniwave.exe
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\obj\Debug\Omniwave.pdb
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\obj\Debug\Omniwave.Properties.Resources.resources
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\obj\Debug\Omniwave.csproj.GenerateResource.Cache
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\bin\Debug\Omnigen.dll
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwave\bin\Debug\Omnigen.pdb

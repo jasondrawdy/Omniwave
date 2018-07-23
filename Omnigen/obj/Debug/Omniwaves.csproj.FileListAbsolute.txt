@@ -1,0 +1,8 @@
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwaves\bin\Debug\Omniwaves.dll
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwaves\bin\Debug\Omniwaves.pdb
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwaves\obj\Debug\Omniwaves.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwaves\obj\Debug\Omniwaves.Properties.Resources.resources
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwaves\obj\Debug\Omniwaves.csproj.GenerateResource.Cache
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwaves\obj\Debug\Omniwaves.csproj.CoreCompileInputs.cache
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwaves\obj\Debug\Omniwaves.dll
+C:\Users\Jason\Backpack\Work\Code\C#\Omniwave\Omniwaves\obj\Debug\Omniwaves.pdb
