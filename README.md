@@ -63,7 +63,7 @@ Written by: John A. Phelps ([kl4yfd](https://github.com/kl4yfd))
 - Improved error handling and documentation of code
 
 # Screenshot
-![omni](https://user-images.githubusercontent.com/40871836/43312808-eeda1bec-9153-11e8-8a9c-525e46847c1f.jpg)
+![omni](https://user-images.githubusercontent.com/40871836/73315002-e18e8800-41fc-11ea-882d-cdb56db41fe3.png)
 
 # Credits
 **Icon:** `Chamestudio Pvt Ltd` <br>
