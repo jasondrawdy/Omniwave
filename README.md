@@ -70,7 +70,7 @@ Written by: John A. Phelps ([kl4yfd](https://github.com/kl4yfd))
 https://www.iconfinder.com/chamedesign
 
 # License
-Copyright © ∞ Jason Drawdy (CloneMerge)
+Copyright © ∞ Jason Drawdy 
 
 All rights reserved.
 
